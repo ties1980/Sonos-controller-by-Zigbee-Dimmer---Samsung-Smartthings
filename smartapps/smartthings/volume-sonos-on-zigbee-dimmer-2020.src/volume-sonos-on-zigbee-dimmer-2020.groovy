@@ -60,6 +60,7 @@ preferences {
 	}    
 }
 
+
 def installed()
 {   
 	subscribe(master, "switch.on", onHandler)
