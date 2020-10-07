@@ -115,9 +115,7 @@ def dimHandler(evt) {
     log.debug "Sonos level: $sonos.currentLevel"
 
  	sonos.setVolume(evt.value.toInteger())
-    
-    //voor de lamp
-	//dimSwitches?.setLevel(evt.value)
+
 }
 
 private onSwitches() {
